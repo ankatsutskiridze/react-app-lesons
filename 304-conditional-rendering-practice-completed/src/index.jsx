@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 //Challenge: Without moving the userIsRegistered variable,
 //1. Show Login as the button text if userIsRegistered is true.
